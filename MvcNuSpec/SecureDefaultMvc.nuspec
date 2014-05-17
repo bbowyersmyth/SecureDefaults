@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SecureDefaults.AspNet.Mvc</id>
+    <version>0.0.2-alpha</version>
+    <title>Secure configuration defaults for ASP.NET MVC</title>
+    <authors>Bruce Bowyer-Smyth</authors>
+    <owners>Bruce Bowyer-Smyth</owners>
+    <licenseUrl>http://www.opensource.org/licenses/apache2.0</licenseUrl>
+    <projectUrl>http://github.com/bbowyersmyth/securedefaults</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Secure configuration defaults for ASP.NET MVC</description>
+    <summary>ASP.NET secure configuration defaults MVC.</summary>
+    <releaseNotes>
+      Initial release
+    </releaseNotes>
+    <tags>ASP.NET MVC Secure Defaults</tags>
+    <dependencies>
+      <dependency id="WebActivatorEx" version="2.0.5" />
+      <dependency id="SecureDefaults.AspNet" version="0.0.2-alpha" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Tools\*.*" target="tools" />
+    <file src="Content\*.*" target="content" />
+    <file src="Content\App_Start\*.*" target="content\App_Start" />
+  </files>
+</package>

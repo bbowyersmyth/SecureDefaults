@@ -1,0 +1,14 @@
+<configuration>
+  <system.web>
+    <httpCookies requireSSL="true" />
+    <authentication>
+      <forms requireSSL="true" />
+    </authentication>
+  </system.web>
+  <system.webServer>
+    <modules>
+      <!-- If the whole domain is ssl only, change the type to "SecureDefaultsSsl.DomainSslOnlyModule, SecureDefaultsSsl" -->
+      <add name="SecureDefaultsSslOnly" type="SecureDefaultsSsl.SslOnlyModule, SecureDefaultsSsl" />
+    </modules>
+  </system.webServer>
+</configuration>

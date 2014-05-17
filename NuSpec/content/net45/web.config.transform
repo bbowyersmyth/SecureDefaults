@@ -1,0 +1,25 @@
+<configuration>
+  <system.web>
+    <customErrors mode="RemoteOnly" defaultRedirect="~/GenericError.html" />
+    <httpRuntime enableVersionHeader="false" encoderType="System.Web.Security.AntiXss.AntiXssEncoder, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <httpCookies httpOnlyCookies="true" />
+    <pages viewStateEncryptionMode="Always" enableViewStateMac="true" />
+    <sessionState cookieless="UseCookies" />
+    <authentication>
+      <forms protection="All" />
+    </authentication>
+  </system.web>
+  <system.webServer>
+    <httpProtocol>
+      <customHeaders>
+        <remove name="X-Powered-By" />
+        <remove name="X-Frame-Options" />
+        <add name="X-Frame-Options" value="SAMEORIGIN" />
+      </customHeaders>
+    </httpProtocol>
+    <modules>
+      <add name="SecureDefaultsNoCacheModule" type="SecureDefaults.NoCacheModule, SecureDefaults" />
+      <add name="SecureDefaultsHeaderModule" type="SecureDefaults.HeaderModule, SecureDefaults" />
+    </modules>
+  </system.webServer>
+</configuration>

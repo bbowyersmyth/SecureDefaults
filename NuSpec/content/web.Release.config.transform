@@ -1,0 +1,7 @@
+<configuration>
+  <system.web>
+    <customErrors mode="On" />
+    <trace enabled="false" localOnly="true" />
+    <compilation debug="false" />
+  </system.web>
+</configuration>

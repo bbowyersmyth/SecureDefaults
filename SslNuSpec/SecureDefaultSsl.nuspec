@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SecureDefaults.AspNet.Ssl</id>
+    <version>0.0.2-alpha</version>
+    <title>Secure configuration defaults for ASP.NET SSL-Only</title>
+    <authors>Bruce Bowyer-Smyth</authors>
+    <owners>Bruce Bowyer-Smyth</owners>
+    <licenseUrl>http://www.opensource.org/licenses/apache2.0</licenseUrl>
+    <projectUrl>http://github.com/bbowyersmyth/securedefaults</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Secure configuration defaults for ASP.NET SSL-Only</description>
+    <summary>ASP.NET secure configuration defaults SSL-Only.</summary>
+    <releaseNotes>
+      Initial release
+    </releaseNotes>
+    <tags>ASP.NET SSL-Only Secure Defaults</tags>
+    <dependencies>
+      <dependency id="SecureDefaults.AspNet" version="0.0.2-alpha" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Content\*.*" target="Content" />
+    <file src="..\HttpModulesSsl\bin\Release\SecureDefaultsSsl.dll" target="lib" />
+  </files>
+</package>

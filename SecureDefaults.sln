@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FF08B73-7147-4260-A0D5-8BA86C52CC76}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuSpec", "NuSpec", "{56E74316-55FC-4C52-B3C1-1E51BDC577F8}"
+	ProjectSection(SolutionItems) = preProject
+		NuSpec\SecureDefault.nuspec = NuSpec\SecureDefault.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{9D9C99BA-D839-4BBA-B921-92FA8B283E19}"
+	ProjectSection(SolutionItems) = preProject
+		NuSpec\content\GenericError.html = NuSpec\content\GenericError.html
+		NuSpec\content\robots.txt = NuSpec\content\robots.txt
+		NuSpec\content\web.config.transform = NuSpec\content\web.config.transform
+		NuSpec\content\web.Release.config.transform = NuSpec\content\web.Release.config.transform
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MvcNuSpec", "MvcNuSpec", "{C86764F7-0E55-4FA7-AA7D-F62D1DE48B32}"
+	ProjectSection(SolutionItems) = preProject
+		MvcNuSpec\SecureDefaultMvc.nuspec = MvcNuSpec\SecureDefaultMvc.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{B9D796D1-9329-4782-A60F-688060FB79F2}"
+	ProjectSection(SolutionItems) = preProject
+		MvcNuSpec\Tools\common.ps1 = MvcNuSpec\Tools\common.ps1
+		MvcNuSpec\Tools\install.ps1 = MvcNuSpec\Tools\install.ps1
+		MvcNuSpec\Tools\uninstall.ps1 = MvcNuSpec\Tools\uninstall.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{A8CF5464-3891-4509-A4F6-C6499D668150}"
+	ProjectSection(SolutionItems) = preProject
+		MvcNuSpec\Content\web.config.transform = MvcNuSpec\Content\web.config.transform
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{E87E7235-D917-4876-944E-EF9CA99EE410}"
+	ProjectSection(SolutionItems) = preProject
+		NuSpec\Tools\install.ps1 = NuSpec\Tools\install.ps1
+		NuSpec\Tools\uninstall.ps1 = NuSpec\Tools\uninstall.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SslNuSpec", "SslNuSpec", "{2CDAACD1-BD04-46F6-88F3-83CA42531B75}"
+	ProjectSection(SolutionItems) = preProject
+		SslNuSpec\SecureDefaultSsl.nuspec = SslNuSpec\SecureDefaultSsl.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{33679BA8-8395-4AD9-87CD-682F497C035F}"
+	ProjectSection(SolutionItems) = preProject
+		SslNuSpec\Content\web.config.transform = SslNuSpec\Content\web.config.transform
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net40", "net40", "{85979438-75BF-47DC-B530-AF2DB1E13817}"
+	ProjectSection(SolutionItems) = preProject
+		NuSpec\Content\net40\web.config.transform = NuSpec\Content\net40\web.config.transform
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net45", "net45", "{BE437B52-56E3-4B48-9614-61772B9F280A}"
+	ProjectSection(SolutionItems) = preProject
+		NuSpec\Content\net45\web.config.transform = NuSpec\Content\net45\web.config.transform
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpModules", "HttpModules\HttpModules.csproj", "{BD70DFB8-6279-4876-B5AD-AA603DE71C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpModulesSsl", "HttpModulesSsl\HttpModulesSsl.csproj", "{8D8A576B-9BCE-4302-9CEF-E2F2B4278E94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_Start", "App_Start", "{686C869A-4C05-4C7C-91DB-0341EDB4DDB2}"
+	ProjectSection(SolutionItems) = preProject
+		MvcNuSpec\Content\App_Start\SecureDefaultsMvc.cs.pp = MvcNuSpec\Content\App_Start\SecureDefaultsMvc.cs.pp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD70DFB8-6279-4876-B5AD-AA603DE71C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD70DFB8-6279-4876-B5AD-AA603DE71C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD70DFB8-6279-4876-B5AD-AA603DE71C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD70DFB8-6279-4876-B5AD-AA603DE71C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8A576B-9BCE-4302-9CEF-E2F2B4278E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8A576B-9BCE-4302-9CEF-E2F2B4278E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8A576B-9BCE-4302-9CEF-E2F2B4278E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8A576B-9BCE-4302-9CEF-E2F2B4278E94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56E74316-55FC-4C52-B3C1-1E51BDC577F8} = {3FF08B73-7147-4260-A0D5-8BA86C52CC76}
+		{C86764F7-0E55-4FA7-AA7D-F62D1DE48B32} = {3FF08B73-7147-4260-A0D5-8BA86C52CC76}
+		{2CDAACD1-BD04-46F6-88F3-83CA42531B75} = {3FF08B73-7147-4260-A0D5-8BA86C52CC76}
+		{9D9C99BA-D839-4BBA-B921-92FA8B283E19} = {56E74316-55FC-4C52-B3C1-1E51BDC577F8}
+		{E87E7235-D917-4876-944E-EF9CA99EE410} = {56E74316-55FC-4C52-B3C1-1E51BDC577F8}
+		{85979438-75BF-47DC-B530-AF2DB1E13817} = {9D9C99BA-D839-4BBA-B921-92FA8B283E19}
+		{BE437B52-56E3-4B48-9614-61772B9F280A} = {9D9C99BA-D839-4BBA-B921-92FA8B283E19}
+		{B9D796D1-9329-4782-A60F-688060FB79F2} = {C86764F7-0E55-4FA7-AA7D-F62D1DE48B32}
+		{A8CF5464-3891-4509-A4F6-C6499D668150} = {C86764F7-0E55-4FA7-AA7D-F62D1DE48B32}
+		{686C869A-4C05-4C7C-91DB-0341EDB4DDB2} = {A8CF5464-3891-4509-A4F6-C6499D668150}
+		{33679BA8-8395-4AD9-87CD-682F497C035F} = {2CDAACD1-BD04-46F6-88F3-83CA42531B75}
+	EndGlobalSection
+EndGlobal
