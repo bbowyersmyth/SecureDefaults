@@ -4,8 +4,8 @@
     <id>SecureDefaults.AspNet</id>
     <version>0.0.2-alpha</version>
     <title>Secure configuration defaults for ASP.NET</title>
-    <authors>Bruce Bowyer-Smyth</authors>
-    <owners>Bruce Bowyer-Smyth</owners>
+    <authors>bbowyersmyth</authors>
+    <owners>bbowyersmyth</owners>
     <licenseUrl>http://www.opensource.org/licenses/apache2.0</licenseUrl>
     <projectUrl>http://github.com/bbowyersmyth/securedefaults</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
