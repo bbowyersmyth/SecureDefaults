@@ -6,7 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FF08B73-7147-4260-A0D5-8BA86C52CC76}"
 	ProjectSection(SolutionItems) = preProject
 		build.bat = build.bat
-		readme.md = readme.md
+		readme.markdown = readme.markdown
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuSpec", "NuSpec", "{56E74316-55FC-4C52-B3C1-1E51BDC577F8}"
