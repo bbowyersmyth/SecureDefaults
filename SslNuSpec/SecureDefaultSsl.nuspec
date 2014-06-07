@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SecureDefaults.AspNet.Ssl</id>
-    <version>0.0.2-alpha</version>
+    <version>0.1.2-alpha</version>
     <title>Secure configuration defaults for ASP.NET SSL-Only</title>
     <authors>bbowyersmyth</authors>
     <owners>bbowyersmyth</owners>
@@ -16,7 +16,7 @@
     </releaseNotes>
     <tags>ASP.NET SSL-Only Secure Defaults</tags>
     <dependencies>
-      <dependency id="SecureDefaults.AspNet" version="0.0.2-alpha" />
+      <dependency id="SecureDefaults.AspNet" version="0.1.0-alpha" />
     </dependencies>
   </metadata>
   <files>
