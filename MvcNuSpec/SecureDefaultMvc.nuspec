@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SecureDefaults.AspNet.Mvc</id>
-    <version>0.1.0-alpha</version>
+    <version>1.0.0</version>
     <title>Secure configuration defaults for ASP.NET MVC</title>
     <authors>bbowyersmyth</authors>
     <owners>bbowyersmyth</owners>
@@ -17,7 +17,7 @@
     <tags>ASP.NET MVC Secure Defaults</tags>
     <dependencies>
       <dependency id="WebActivatorEx" version="2.0.5" />
-      <dependency id="SecureDefaults.AspNet" version="0.1.0-alpha" />
+      <dependency id="SecureDefaults.AspNet" version="1.0.0" />
     </dependencies>
   </metadata>
   <files>

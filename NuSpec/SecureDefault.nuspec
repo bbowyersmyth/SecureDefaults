@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SecureDefaults.AspNet</id>
-    <version>0.1.0-alpha</version>
+    <version>1.0.0</version>
     <title>Secure configuration defaults for ASP.NET</title>
     <authors>bbowyersmyth</authors>
     <owners>bbowyersmyth</owners>
